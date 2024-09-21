@@ -1,0 +1,5 @@
+name: melos_git_diff_issue
+sdkPath: .fvm/flutter_sdk
+packages:
+  - apps/sample_app
+  - packages/*

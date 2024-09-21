@@ -1,0 +1,7 @@
+name: melos_git_diff_issue
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dev_dependencies:
+  melos: ^6.1.0
