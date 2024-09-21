@@ -3,3 +3,12 @@ sdkPath: .fvm/flutter_sdk
 packages:
   - apps/sample_app
   - packages/*
+
+scripts:
+  test-filter:
+    name: test filter
+    run: basename $(pwd)
+    exec:
+      concurrency: 5
+    packageFilters:
+      diff: HEAD
